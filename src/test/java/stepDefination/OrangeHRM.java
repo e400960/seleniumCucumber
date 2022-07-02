@@ -29,7 +29,6 @@ public class OrangeHRM {
 
     @Then("I close the browser")
     public void iCloseTheBrowser() {
-
-        driver.close();
+    driver.close();
     }
 }
